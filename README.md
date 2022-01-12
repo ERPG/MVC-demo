@@ -45,11 +45,8 @@ To run the tests
 yarn run test
 ```
 
-## Aditional information about the challenge
+## Aditional information
 
-- The project structure is based on MVC design pattern with some custom changes. This design do well for small-medium apps.
-- Since I've got some problems with the provided Go server, I have made a simple node test server for the events. If the server give any error, re launch it and should work without issue.
-- When creating a new document, you only need to place the title, the other data has been mocked to speed things up.
 - Things like dependency injection, styling and color shades can be improve.
 - In a scale up situation, a route handler with lazy loading would be necessary.
 
