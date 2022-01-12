@@ -1,0 +1,33 @@
+/* ====== NAVBAR ======= */
+
+.navbar__container {
+  position: relative;
+}
+
+.nav__layout-order {
+  text-align: right;
+}
+
+.nav__layout-square, .nav__layout-linear  {
+  cursor: pointer;
+  margin: 4px;
+}
+
+.document-header {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  color: darkgrey;
+  font-size: 12px;
+}
+
+.document__version {
+  color: darkgrey;
+  opacity: 0.6;
+  font-size: 12px;
+}
+
+.document_title {
+  margin: 4px 0;
+}
